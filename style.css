@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(104, 187, 162);
+}
+.para {
+    
+    float: right;
+    width: 50%;
+    height: 100px;
+    padding: 2% 2% 2% 5%;
+    text-align:justify;
+    font-weight: 300;
+}
+.mem{
+    padding: 2% 2% 2% 5%;
+    float: left;
+    height: 100px;
+    width: 30%;
+    text-align:center;
+    font-weight: 300;
+    list-style: none;
+}
+footer{
+  text-align: center;
+}
+
+header {
+    background-color: #9dc6d6;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card{
+    height: 250px;
+    margin: 20% 10% 20% 10%;
+    font-size: 25px;
+    font-weight: 500;
+    color: #007bff;
+    padding: 10px 15px 5px 10px;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background: #fff;
+}
+button{
+  padding: 25px 30px 25px 30px;
+  background: rgb(156, 208, 218);
+  margin: 10% 9% 10% 9%;
+  border:1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
