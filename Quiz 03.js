@@ -23,13 +23,13 @@ let questions = [
       },
       {
         numb: 3,
-        question: "Tag is used to print horizontal line",
-        answer: "<hr>",
+        question: "The correct sequence of HTML tags for starting a webpage is - ?",
+        answer: "HTML, Head, Title, Body",
         options: [
-          "<hr line>",
-          "<line>",
-          "<hr>",
-          "<li>"
+          "HTML, Head, Title, Body",
+          "HTML, Head, Title, Body",
+          "Head, Title, HTML, body",
+          "HTML, Body, Title, Head"
         ]
       },
       {
