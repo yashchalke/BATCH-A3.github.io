@@ -6,7 +6,7 @@ let questions = [
         options: [
           "Domain Notation Service",
           "Domain Nation Server",
-          "Domain Name System ",
+          "Domain Name System",
           "Data Name Service "
         ]
       },
@@ -27,7 +27,7 @@ let questions = [
         answer: "HTML, Head, Title, Body",
         options: [
           "HTML, Head, Title, Body",
-          "HTML, Head, Title, Body",
+          "HTML, Head, Body, Title",
           "Head, Title, HTML, body",
           "HTML, Body, Title, Head"
         ]
