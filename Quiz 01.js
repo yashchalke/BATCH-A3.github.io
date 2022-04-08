@@ -45,7 +45,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "In OOP which cocept provides the idea of reusability.",
+    question: "In OOP which concept provides the idea of reusability.",
     answer: "inheritance",
     options: [
       "polymorphism",
