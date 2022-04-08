@@ -2,11 +2,11 @@ let questions = [
     {
         numb: 1,
         question: "DNS stands for ",
-        answer: "Domain Name Server ",
+        answer: "Domain Name System",
         options: [
           "Domain Notation Service",
           "Domain Nation Server",
-          "Domain Name Server ",
+          "Domain Name System ",
           "Data Name Service "
         ]
       },
