@@ -77,7 +77,6 @@ continue_btn.onclick = ()=>{
     showQuetions(0);
     queCounter(1);
     startTimer(15);
-    startTimerLine(0);
 }
 
 let timeValue =  15;
@@ -85,7 +84,6 @@ let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
 let counter;
-let counterLine;
 let widthValue = 0;
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
@@ -227,15 +225,6 @@ function startTimer(time){
     }
 }
 
-function startTimerLine(time){
-    counterLine = setInterval(timer, 29);
-    function timer(){
-        time += 1;
-        if(time > 549){
-            clearInterval(counterLine);
-        }
-    }
-}
 
 function queCounter(index){
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ questions.length +'</p> Questions</span>';
